@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "nombre": "Remera Mujer Skeleton",
+        "precio": 46.200,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "La estampa de esqueleto es tanto en el frente como en la espada, y brilla en la oscuridad (Glow in the dark).",
+        "categoria": {
+                "id": "top",
+                "nombre": "Top"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Pantalon Jean Elastizado Chupin Doble Corset Súcubo",
+        "precio": 115.700,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Pantalon Jean en Bengalina elastizada, 4 bolsillos, corte chupin, con acordonado tipo corset en ambos laterales.",
+        "categoria": {
+            "id": "bottom",
+            "nombre": "Bottom"
+    }
+    },
+    {
+        "id": 3,
+        "nombre": "Top Polera Sin Mangas Classic",
+        "precio": 20.700,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Una prenda que no puede faltar en tu guardaropas. Combinalo con cualquier falda, short o pantalon, y dale un look más elegante a tu outfit.",
+        "categoria": {
+            "id": "top",
+            "nombre": "Top"
+    }
+    },
+    {
+        "id": 4,
+        "nombre": "Choker Bow",
+        "precio": 27.000,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Contorno de cuello hasta 47 cms.",
+        "categoria": {
+            "id": "accesorios",
+            "nombre": "Accesories"
+    }
+    },
+    {
+        "id": 5,
+        "nombre": "Pantalon Jean Engomado Semi Oxford Corset Vampirella",
+        "precio": 74.000,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Atrevete a deslumbrar con nuestro Pantalón Jean Engomado Corset Vampirella, una pieza que fusiona el estilo clásico del jean con la actitud irreverente del rock.",
+        "categoria": {
+            "id": "bottom",
+            "nombre": "Bottom"
+    }
+    },
+    {
+        "id": 6,
+        "nombre": "Cinturón Selina",
+        "precio": 65.500,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Los productos en Charol Vegan se confeccionan únicamente a pedido.",
+        "categoria": {
+            "id": "accesorios",
+            "nombre": "Accesories"
+    }
+    },
+    {
+        "id": 7,
+        "nombre": "Body Polera Sin Mangas Classic",
+        "precio": 9.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Body Polera sin Mangas, confeccionado en Lycra Premium, corte cola less. Posee apertura en la entrepierna.",
+        "categoria": {
+            "id": "top",
+            "nombre": "Top"
+    }
+    },
+    {
+        "id": 8,
+        "nombre": "Pantalon Jean Elastizado Chupin Misato",
+        "precio": 58.000,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Pantalon Jean en Bengalina elastizada, 4 bolsillos, corte chupin.",
+        "categoria": {
+            "id": "bottom",
+            "nombre": "Bottom"
+    }
+    },
+    {
+        "id": 9,
+        "nombre": "Mini Falda Tajo Profundo Pierced",
+        "precio": 33.000,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Mini falda tajo profundo confeccionada en Bengalina elastizada, con 4 piercings en la parte superior del tajo.",
+        "categoria": {
+            "id": "bottom",
+            "nombre": "Bottom"
+    }
+    },
+    {
+        "id": 10,
+        "nombre": "Remera Encaje Manga Larga Melisandre",
+        "precio": 7.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Confeccionada en un delicado encaje, esta prenda define la simplicidad con un toque sofisticado. Perfecta para lucir sofisticada y cómoda en cualquier ocasión.",
+        "categoria": {
+            "id": "top",
+            "nombre": "Top"
+    }
+    }
+]

@@ -1,6 +1,6 @@
 import { BagHeartFill } from "react-bootstrap-icons"
 
-const Carrito = () => {
+const CardWidget = () => {
   return (
     <div className="carrito">
        <BagHeartFill /> 1 
@@ -8,4 +8,4 @@ const Carrito = () => {
   )
 }
 
-export default Carrito
+export default CardWidget

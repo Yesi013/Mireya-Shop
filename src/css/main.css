@@ -15,7 +15,8 @@
 .logo {
     color: white;
     -webkit-text-stroke: 0.15rem black;
-    font-size: 2.5rem;
+    font-size: 1.15rem;
+    text-decoration: none;
 }
 .nav {
     display: flex;
@@ -40,4 +41,64 @@
 .carrito{
     color: white;
     font-size: 1.5rem;
+}
+
+.contenido{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.contenido-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: .5rem;
+}
+
+.letra {
+    color: white;
+    font-size: 1rem;
+}
+
+.title {
+    padding: 3rem;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+.card-details {
+    background-color: rgba(0, 0, 0, 0.897);
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.contenido-detalles {
+    margin: 2rem;
+}
+
+.card-div-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card-div-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.link-size {
+    font-size: 1rem;
 }
