@@ -1,10 +1,16 @@
+import { useContext } from "react"
 import { BagHeartFill } from "react-bootstrap-icons"
+import { Link } from "react-router-dom"
+import { CartContex } from "../../context/CartContex"
 
 const CardWidget = () => {
+
+  const { calcularCantidad } = useContext(CartContex);
+
   return (
-    <div className="carrito">
-       <BagHeartFill /> 1 
-    </div>
+    <Link className="carrito" to= "/carrito">
+       <BagHeartFill /> {calcularCantidad()} 
+    </Link>
   )
 }
 

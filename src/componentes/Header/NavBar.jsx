@@ -1,7 +1,23 @@
 import { NavLink } from "react-router-dom";
-import categories from "../../data/categorias.json";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../../firebase/config";
+import { useEffect, useState } from "react";
 
 const NavBar = () => {
+
+  let [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    const categoriasRef = collection(db, "categorias");
+    getDocs (categoriasRef)
+    .then((res) => {
+      setCategories (res.docs.map((doc) => {
+        return {...doc.data()}
+      }));
+    })
+  }, [])
+
+
   return (
     <>
     <nav className="nav">
